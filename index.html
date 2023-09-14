@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog avec Bootstrap5</title>
+
+  <!-- Liens CDN de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.x.x/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Barre de navigation -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Le Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">À propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <!-- Ajoutez d'autres liens au besoin -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Ajouter la partie a propos -->
+
+  <!-- Section À propos -->
+
+  <section class="container my-5">
+    <div class="row align-items-center">
+
+      <!-- Image (optionnel) -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="https://www.xarala.co/static/img/logo.b5700a8deb63.png" class="img-fluid rounded-circle"
+          alt="Votre image ou logo">
+      </div>
+
+      <!-- Texte de la section À propos -->
+      <div class="col-md-6">
+        <h2 class="mb-4">À propos de nous</h2>
+        <p class="lead">
+          Fondé en 20XX, "Nom de votre blog/site" a pour mission d'éduquer, d'inspirer et d'équiper nos lecteurs avec
+          les meilleures ressources et conseils sur "votre domaine/sujet principal".
+        </p>
+        <p>
+          Au fil des ans, nous avons aidé des milliers de personnes à "quelque chose que votre blog/site aide à
+          accomplir, par exemple : 'démarrer leur propre entreprise', 'améliorer leurs compétences en développement
+          web', etc.". Nous sommes passionnés par ce que nous faisons et nous sommes impatients de vous aider à
+          "atteindre un certain objectif ou accomplissement".
+        </p>
+        <a href="#" class="btn btn-primary mt-3">En savoir plus</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <div class="container  my-5">
+    <div class="row">
+
+      <div class="col-md-8">
+        <!-- Contenu principal ici -->
+        <!-- Section Articles récents -->
+
+
+        <h2 class="mb-4">Articles récents</h2>
+        <div class="row">
+
+          <!-- Article 1 -->
+          <div class="col-md-6">
+            <div class="card">
+              <img src="https://www.xarala.co/media/952852396289/952852396289.jpg" class="card-img-top"
+                alt="Introduction à Bootstrap">
+              <div class="card-body">
+                <h5 class="card-title">Introduction à Bootstrap</h5>
+                <p class="card-text">Découvrez les bases de Bootstrap et comment il peut faciliter le développement de
+                  votre blog.</p>
+                <a href="#" class="btn btn-primary">Lire plus</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Article 2 -->
+          <div class="col-md-6">
+            <div class="card">
+              <img src="https://www.xarala.co/media/952852396289/952852396289.jpg" class="card-img-top"
+                alt="Design responsif avec Bootstrap">
+              <div class="card-body">
+                <h5 class="card-title">Design responsif avec Bootstrap</h5>
+                <p class="card-text">Apprenez à rendre votre blog adaptatif à toutes les tailles d'écran avec les
+                  grilles de Bootstrap.</p>
+                <a href="#" class="btn btn-primary">Lire plus</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Article 3 -->
+          <div class="col-md-6">
+            <div class="card">
+              <img src="https://www.xarala.co/media/952852396289/952852396289.jpg" class="card-img-top"
+                alt="Composants Bootstrap pour un blog">
+              <div class="card-body">
+                <h5 class="card-title">Composants Bootstrap pour un blog</h5>
+                <p class="card-text">Découvrez les composants essentiels de Bootstrap pour enrichir les fonctionnalités
+                  de votre blog.</p>
+                <a href="#" class="btn btn-primary">Lire plus</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Article 4 -->
+          <div class="col-md-6">
+            <div class="card">
+              <img src="https://www.xarala.co/media/952852396289/952852396289.jpg" class="card-img-top"
+                alt="Personnaliser Bootstrap pour votre blog">
+              <div class="card-body">
+                <h5 class="card-title">Personnaliser Bootstrap pour votre blog</h5>
+                <p class="card-text">Apprenez les techniques pour personnaliser Bootstrap et lui donner un look unique
+                  pour votre blog.</p>
+                <a href="#" class="btn btn-primary">Lire plus</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+      <div class="col-md-4">
+        <!-- Sidebar ici -->
+        <h3>Catégories</h3>
+        <ul>
+          <li><a href="#">Technologie</a></li>
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Marketing</a></li>
+          <!-- Autres catégories -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Contact -->
+
+  <section class="container my-5 ">
+    <div class="row">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2>Contactez-nous</h2>
+        <p class="lead">
+          Avez-vous des questions, des suggestions ou souhaitez-vous en savoir plus sur nos services? N'hésitez pas à
+          nous contacter. Notre équipe est là pour vous aider et vous guider.
+        </p>
+      </div>
+
+      <div class="col-lg-6">
+        <form action="your_server_script.php" method="post">
+          <div class="mb-3">
+            <label for="contactName" class="form-label">Nom complet</label>
+            <input type="text" class="form-control" id="contactName" name="name" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="contactEmail" class="form-label">Adresse e-mail</label>
+            <input type="email" class="form-control" id="contactEmail" name="email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="contactMessage" class="form-label">Votre message</label>
+            <textarea class="form-control" id="contactMessage" rows="4" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Envoyer le message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="bg-dark text-white mt-5">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-lg-6 mb-3 mb-lg-0">
+          <h4>Le Blog</h4>
+          <p class="mb-0">Adresse : 123 Rue Principale, Ville, Pays</p>
+          <p>Email : contact@leblog.com</p>
+          <p>Téléphone : +12 345 678 910</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h4>Liens rapides</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Accueil</a></li>
+            <li><a href="#" class="text-white">À propos</a></li>
+            <li><a href="#" class="text-white">Contact</a></li>
+            <!-- Ajoutez d'autres liens au besoin -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col text-center">
+          <p class="mb-0">&copy; 2023 Le Blog. Tous droits réservés.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- JS de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.x.x/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
